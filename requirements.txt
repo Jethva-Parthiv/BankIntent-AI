@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+wandb
+python-dotenv
+huggingface_hub
+accelerate
+ipykernel
+notebook

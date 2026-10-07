@@ -1,0 +1,36 @@
+# Environment and secrets
+.env
+.env.local
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Weights & Biases
+wandb/
+
+# Model checkpoints and weights (stored on Hugging Face Hub, not GitHub)
+best_model/
+models/*
+!models/README.md
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Hugging Face caches
+.cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
