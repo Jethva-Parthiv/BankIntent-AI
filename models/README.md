@@ -11,7 +11,7 @@ You can download and run inference with the published model using:
 ```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-model_id = "YOUR_HF_USERNAME/banking77-distilbert"
+model_id = "Parthiv-Jethva/bankintent-ai"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForSequenceClassification.from_pretrained(model_id)
